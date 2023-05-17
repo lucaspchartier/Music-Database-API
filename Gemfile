@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
-ruby '2.7.0'
+ruby '3.1.0'
 
 gem 'active_model_serializers', '~> 0.10.6'
 gem 'bcrypt', '~> 3.1.11'
@@ -20,7 +20,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'listen', '~> 3.1.5'
+  gem 'listen', '~> 3.8.0'
   gem 'pry-rails', '~> 0.3.6'
   gem 'spring', '~> 2.0.2'
   gem 'spring-commands-rspec', '~> 1.0.4'
